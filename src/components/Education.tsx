@@ -3,18 +3,18 @@ import { Card, CardContent } from '@/components/ui/card';
 const Education = () => {
   const education = [
     {
-      degree: 'Bachelor of Science - Cybersecurity Analytics and Operations, Law and Policy',
-      institution: 'The Pennsylvania State College of IST Penn\'s Link, Riverside, PA',
-      period: 'Expected May 2026',
-      description: 'Specialized focus on cybersecurity research, data analysis, and policy development.',
+      degree: 'Bachelor of Science - Cybersecurity Analytics and Operations (Law and Policy Focus)',
+      institution: 'Penn State University, State College, PA',
+      period: 'Fourth Year - Expected Graduation 2026',
+      description: 'Specialized focus on cybersecurity analytics, operations, law and policy. Double minor in Information Sciences and Technology & Security and Risk Analysis.',
       coursework: [
-        'Cybersecurity Research & Analysis',
         'Data Structures and Algorithms',
-        'Application Development',
-        'Probability Theory',
         'Database Management',
-        'Mathematical Statistics',
-        'Security Policy & Law'
+        'Big Data Programming Models',
+        'Cybersecurity Analytics',
+        'Security Policy & Law',
+        'Information Sciences and Technology',
+        'Security and Risk Analysis'
       ]
     },
     {

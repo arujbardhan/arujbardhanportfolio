@@ -3,42 +3,30 @@ import { Card, CardContent } from '@/components/ui/card';
 const Experience = () => {
   const experiences = [
     {
-      role: 'ETL Developer & Process Optimizer',
-      company: 'Current Role',
-      period: 'August 2023 - Present',
-      location: 'Collegeville, PA',
-      description: 'Optimizing ETL processes and developing AI/ML applications with strategic coordination in collaborative environments.',
+      role: 'Developer III',
+      company: 'Coforge',
+      period: 'May 2025 - Jul 2025',
+      location: 'Oaks, Pennsylvania, United States · On-site',
+      description: 'Internship focused on finding viable alternatives to replace Informatica workflows and developing enterprise data integration solutions.',
       highlights: [
-        'Led optimization of ETL systems and algorithms',
-        'Developed AI/ML applications for data processing',
-        'Collaborated with cross-functional teams on strategic initiatives',
-        'Improved data processing efficiency through automation'
+        'Found viable alternatives to replace Informatica workflows using Python, DBT(for Snowflake), Azure, or combination of these tools',
+        'Developed and modeled three Informatica workflows with Python, DBT Jinja, SSIS and SQL, decreasing runtime by over 40 minutes to almost 1 hour for each workflow',
+        'Collaborated with both the IMS and SEI Wealth Platform teams',
+        'Collaborated on UI/UX design for a Hypernova Smart Chatbot with different intents and entities using Python and MongoDB',
+        'Developed foundation in Microsoft SSIS, Active Directory, Microsoft Entra, and Microsoft Business Suite'
       ]
     },
     {
-      role: 'Software Development Intern',
-      company: 'Technology Company',
-      period: 'May 2023 - July 2023',
-      location: 'Remote',
-      description: 'Gained hands-on experience in software development, focusing on cybersecurity applications and database management.',
+      role: 'Director, Marketing',
+      company: 'HackPSU',
+      period: 'Feb 2023 - Aug 2023',
+      location: 'State College, Pennsylvania, United States',
+      description: 'Directed and managed a team to deploy various marketing methodologies for HackPSU (the largest student-run hackathon at Penn State).',
       highlights: [
-        'Developed secure applications using Python and Java',
-        'Implemented database optimization strategies',
-        'Contributed to cybersecurity research projects',
-        'Enhanced technical expertise in multiple programming languages'
-      ]
-    },
-    {
-      role: 'Research Assistant',
-      company: 'Pennsylvania State College',
-      period: 'January 2023 - May 2023',
-      location: 'University Park, PA',
-      description: 'Conducted cybersecurity research with focus on data analysis and algorithmic development.',
-      highlights: [
-        'Performed in-depth cybersecurity research',
-        'Applied mathematical statistics to security analysis',
-        'Developed algorithms for threat detection',
-        'Collaborated on academic research publications'
+        'Directed and managed a team to deploy various marketing methodologies for HackPSU',
+        'Tasked with targeting and reaching over 900+ students and 100+ universities across the globe',
+        'Co-Directed the Marketing Team alongside other executives from other teams to successfully organize HackPSU',
+        'Utilized skills in Video Editing, Adobe Photoshop, and other creative tools'
       ]
     }
   ];

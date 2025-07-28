@@ -17,23 +17,22 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              Hey! I'm Aruj, a Pennsylvania State College student studying cybersecurity 
-              and software development. I have a passion for building secure, innovative 
-              solutions that tackle real-world challenges.
+              Hey! I'm Aruj, a fourth-year student at Penn State University in State College, PA, 
+              pursuing a degree in Cybersecurity Analytics and Operations with a focus in Law and Policy. 
+              I'm also pursuing a double minor in Information Sciences and Technology & Security and Risk Analysis.
             </p>
             
             <p className="text-lg leading-relaxed">
-              I currently work on optimizing ETL processes and developing AI/ML applications 
-              with strategic coordination in collaborative environments. I'm especially 
-              passionate about cybersecurity research, data analysis, and creating systems 
-              that enhance security and efficiency.
+              My academic background in data structures and algorithms, database management, and big data programming models 
+              has given me a solid foundation in handling complex data systems. I have proficiency in SQL, Java, Python, 
+              and RStudio, and experience working with AI models like OpenAI and TensorFlow.
             </p>
 
             <p className="text-lg leading-relaxed">
-              My experience spans from Python automation and database management to 
-              cybersecurity research and UI/UX design. I'm driven by the idea that 
-              technology and security together can solve complex problems and create 
-              meaningful impact.
+              I've applied these competencies to diverse technology projects, including an OpenAI Chatbot GUI in Java. 
+              I also have leadership experience at many organizations at Penn State, including directing HackPSU and 
+              the Aviation Society of Penn State. I strive to bring these characteristics to my next opportunity 
+              and cannot wait to improve my skills.
             </p>
           </div>
 
@@ -43,11 +42,15 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🎓 Pennsylvania State College Student</span>
+                  <span>🎓 Penn State University - Fourth Year</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🔒 Cybersecurity & Software Development Focus</span>
+                  <span>🔒 Cybersecurity Analytics & Operations (Law & Policy Focus)</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="w-2 h-2 bg-accent rounded-full" />
+                  <span>📚 Double Minor: IST & Security Risk Analysis</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />

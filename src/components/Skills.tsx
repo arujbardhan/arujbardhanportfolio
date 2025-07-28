@@ -18,26 +18,32 @@ const Skills = () => {
       skills: [
         'Python',
         'Java',
+        'SQL',
+        'RStudio',
+        'DBT (Data Build Tool)',
+        'Microsoft SSIS',
         'JSON',
         'PHI/XML',
-        'SQL',
         'ETL Processes',
         'API Development',
         'MongoDB',
-        'Data Structures & Algorithms'
+        'Data Structures & Algorithms',
+        'Big Data Programming Models'
       ]
     },
     {
       title: '🤖 AI/ML & Data Science',
       skills: [
+        'OpenAI',
+        'TensorFlow',
         'Machine Learning',
         'Data Analysis',
-        'AutoCAD/Revit',
-        'VEGAS Pro',
-        'Adobe Premier Pro',
         'Mathematical Statistics',
         'Big Data Processing',
-        'Predictive Modeling'
+        'Predictive Modeling',
+        'Azure',
+        'Snowflake',
+        'AutoCAD/Revit'
       ]
     },
     {
@@ -57,6 +63,9 @@ const Skills = () => {
       title: '🔧 Technical Skills',
       skills: [
         'Database Management',
+        'Microsoft Active Directory',
+        'Microsoft Entra',
+        'Microsoft Business Suite',
         'System Optimization',
         'Technical Writing',
         'Project Management',
