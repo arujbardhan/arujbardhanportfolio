@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button';
-import profilePhoto from '@/assets/profile-photo.jpg';
 
 const Hero = () => {
   return (
@@ -46,7 +45,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-accent to-primary rounded-full blur-2xl opacity-20 animate-float" />
               <img
-                src={profilePhoto}
+                src="/lovable-uploads/a8ea17dc-5b68-461e-b24c-417d65274126.png"
                 alt="Aruj Bardhan"
                 className="relative w-80 h-80 rounded-full object-cover border-4 border-accent/20 shadow-2xl animate-float"
               />
