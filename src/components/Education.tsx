@@ -35,11 +35,9 @@ const Education = () => {
   ];
 
   const certifications = [
-    'Cybersecurity Fundamentals',
-    'Data Analysis & Visualization',
-    'Python Programming',
-    'Database Management Systems',
-    'Agile & Scrum Methodologies'
+    'Visio 2021 Essential Training Office',
+    'NSA Center of Academic Excellence Certificate (In-Progress)',
+    'Preparing for the CompTIA Network N10007 Exam'
   ];
 
   return (

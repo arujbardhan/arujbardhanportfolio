@@ -7,53 +7,40 @@ const Projects = () => {
       title: 'State College Airport GUI Interface',
       period: 'November 2024 - December 2024',
       description: 'Designed a Java-based GUI integrating OpenAI API to assist users with booking and tracking flights.',
-      technologies: ['Java', 'OpenAI API', 'GUI Development', 'Flight Data Integration'],
+      technologies: ['Java', 'OpenAI API', 'GUI Development'],
       highlights: [
-        'Designed a Java-based GUI integrating OpenAI API',
         'Enabled search filtering by seat preferences',
-        'Integrated real-time flight data tracking',
-        'Enhanced user experience for flight booking and management'
+        'Real-time flight data integration',
+        'User-friendly booking interface',
+        'AI-powered flight assistance'
       ],
-      type: 'Software Development'
+      type: 'Desktop Application'
     },
     {
-      title: 'Cybersecurity Research Platform',
-      period: 'Ongoing',
-      description: 'Comprehensive platform for cybersecurity analysis using advanced algorithms and data processing.',
-      technologies: ['Python', 'Machine Learning', 'Data Analysis', 'Security Algorithms'],
+      title: 'Cybersecurity Research',
+      period: 'September 2024 - Present',
+      description: 'Conducted research on cybersecurity analytics and threat detection methodologies, focusing on network security and anomaly detection.',
+      technologies: ['Python', 'Wireshark', 'Splunk', 'IDA Pro', 'PowerShell'],
       highlights: [
-        'Developed threat detection algorithms',
-        'Implemented real-time security monitoring',
-        'Created comprehensive vulnerability assessment tools',
-        'Applied mathematical statistics for risk analysis'
+        'Analyzed network traffic patterns',
+        'Developed threat detection models',
+        'Researched security vulnerabilities',
+        'Implemented monitoring solutions'
       ],
-      type: 'Cybersecurity'
+      type: 'Research'
     },
     {
-      title: 'ETL Optimization System',
-      period: 'August 2023 - Present',
-      description: 'Advanced ETL system optimization with AI/ML integration for enhanced data processing efficiency.',
-      technologies: ['Python', 'ETL Processes', 'AI/ML', 'Database Optimization'],
+      title: 'ETL Optimization - Coforge',
+      period: 'May 2025 - July 2025',
+      description: 'Improved ETL efficiency by 60%, reducing processing time from 90 to 30 minutes for business-critical workflows using Python, DBT, and Microsoft SSIS.',
+      technologies: ['Python', 'DBT', 'SQL', 'Microsoft SSIS', 'Azure'],
       highlights: [
-        'Optimized data processing workflows by 40%',
-        'Integrated machine learning for predictive analytics',
-        'Automated complex data transformation processes',
-        'Improved system reliability and performance'
+        'Reduced processing time by 60%',
+        'Optimized 3+ business-critical workflows',
+        'Built chatbot UI with MongoDB',
+        'Improved user query resolution by 14%'
       ],
       type: 'Data Engineering'
-    },
-    {
-      title: 'AI-Powered Security Analytics',
-      period: 'January 2023 - May 2023',
-      description: 'Machine learning application for cybersecurity threat analysis and pattern recognition.',
-      technologies: ['Python', 'TensorFlow', 'Data Science', 'Security Analytics'],
-      highlights: [
-        'Built ML models for threat pattern recognition',
-        'Achieved 95% accuracy in anomaly detection',
-        'Processed large-scale security datasets',
-        'Developed real-time monitoring capabilities'
-      ],
-      type: 'AI/ML'
     }
   ];
 
