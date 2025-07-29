@@ -62,7 +62,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🌍 Collegeville, PA</span>
+                  <span>🏆 Awards: Penn State Dean's List, Provost's Award, Spring-Ford Entrepreneurship</span>
                 </div>
               </div>
             </CardContent>

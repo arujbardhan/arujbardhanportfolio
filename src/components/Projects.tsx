@@ -6,13 +6,13 @@ const Projects = () => {
     {
       title: 'State College Airport GUI Interface',
       period: 'November 2024 - December 2024',
-      description: 'Designed and implemented a comprehensive GUI interface for State College Airport operations management.',
-      technologies: ['Python', 'GUI Development', 'Database Integration', 'Airport Systems'],
+      description: 'Designed a Java-based GUI integrating OpenAI API to assist users with booking and tracking flights.',
+      technologies: ['Java', 'OpenAI API', 'GUI Development', 'Flight Data Integration'],
       highlights: [
-        'Created intuitive user interface for airport operations',
-        'Integrated real-time flight tracking and scheduling',
-        'Implemented efficient data management systems',
-        'Enhanced operational workflow automation'
+        'Designed a Java-based GUI integrating OpenAI API',
+        'Enabled search filtering by seat preferences',
+        'Integrated real-time flight data tracking',
+        'Enhanced user experience for flight booking and management'
       ],
       type: 'Software Development'
     },

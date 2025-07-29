@@ -9,10 +9,10 @@ const Experience = () => {
       location: 'Oaks, Pennsylvania, United States · On-site',
       description: 'Internship focused on finding viable alternatives to replace Informatica workflows and developing enterprise data integration solutions.',
       highlights: [
-        'Found viable alternatives to replace Informatica workflows using Python, DBT(for Snowflake), Azure, or combination of these tools',
-        'Developed and modeled three Informatica workflows with Python, DBT Jinja, SSIS and SQL, decreasing runtime by over 40 minutes to almost 1 hour for each workflow',
+        'Tasked to find viable alternatives to replace Informatica. Collaborated with on-site and remote teams in a Global Delivery Model using Python/DBT scripts and Microsoft SSIS',
+        'Improved ETL efficiency by 60%, reducing processing time from 90 to 30 minutes, impacting 3+ business-critical workflows and increasing expected cost savings. Presented project to vendor with ETL demos',
+        'Built chatbot UI/UX with Python, JSON, and MongoDB, enabling dynamic intent recognition and improving user query resolution by 14%',
         'Collaborated with both the IMS and SEI Wealth Platform teams',
-        'Collaborated on UI/UX design for a Hypernova Smart Chatbot with different intents and entities using Python and MongoDB',
         'Developed foundation in Microsoft SSIS, Active Directory, Microsoft Entra, and Microsoft Business Suite'
       ]
     },
@@ -27,6 +27,19 @@ const Experience = () => {
         'Tasked with targeting and reaching over 900+ students and 100+ universities across the globe',
         'Co-Directed the Marketing Team alongside other executives from other teams to successfully organize HackPSU',
         'Utilized skills in Video Editing, Adobe Photoshop, and other creative tools'
+      ]
+    },
+    {
+      role: 'Video Content Creator',
+      company: 'Intema Solutions - Team BH Inc',
+      period: 'May 2018 - Dec 2018',
+      location: 'Online (Based in Toronto, ON)',
+      description: 'Created and managed YouTube content related to popular video games, overseeing content strategy and collaborating with creators to optimize algorithm performance.',
+      highlights: [
+        'Created and managed YouTube content related to popular video games',
+        'Oversaw content strategy and collaborated with creators to optimize algorithm performance',
+        'Developed skills in video editing and content creation',
+        'Managed online presence and audience engagement'
       ]
     }
   ];

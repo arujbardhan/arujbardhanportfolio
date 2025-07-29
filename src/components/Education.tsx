@@ -9,17 +9,19 @@ const Education = () => {
       description: 'Specialized focus on cybersecurity analytics, operations, law and policy. Double minor in Information Sciences and Technology & Security and Risk Analysis.',
       coursework: [
         'Data Structures and Algorithms',
+        'Application Development',
+        'Probability Theory',
         'Database Management',
-        'Big Data Programming Models',
-        'Cybersecurity Analytics',
-        'Security Policy & Law',
-        'Information Sciences and Technology',
-        'Security and Risk Analysis'
+        'Networking and Administration',
+        'Quant Programming and Language Concepts',
+        'Programming Models for Big Data',
+        'Data Interchange',
+        'Mathematical Statistics'
       ]
     },
     {
       degree: 'High School Diploma',
-      institution: 'High School, Royersford, PA',
+      institution: 'Spring-Ford High School, Royersford, PA',
       period: 'August 2018 - June 2022',
       description: 'Strong foundation in mathematics, science, and technology with early focus on computer science.',
       coursework: [

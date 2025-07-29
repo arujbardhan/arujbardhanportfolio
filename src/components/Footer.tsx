@@ -13,14 +13,14 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="flex items-center gap-6">
               <a 
-                href="mailto:a.bardhan@psu.edu"
+                href="mailto:a.bardhan2004@gmail.com"
                 className="text-muted-foreground hover:text-accent transition-colors"
                 aria-label="Email"
               >
                 📧
               </a>
               <a 
-                href="https://linkedin.com/in/aruj-bardhan"
+                href="https://www.linkedin.com/in/arujbardhan/"
                 className="text-muted-foreground hover:text-accent transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -29,7 +29,7 @@ const Footer = () => {
                 💼
               </a>
               <a 
-                href="https://github.com/aruj-bardhan"
+                href="https://github.com/arujbardhan"
                 className="text-muted-foreground hover:text-accent transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const Footer = () => {
             
             <div className="text-center md:text-right">
               <p className="text-sm text-muted-foreground">
-                © 2024 Aruj Bardhan. All rights reserved.
+                © 2025 Aruj Bardhan. All rights reserved.
               </p>
               <p className="text-xs text-muted-foreground mt-1">
                 Built with React, TypeScript, and Tailwind CSS

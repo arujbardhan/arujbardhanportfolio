@@ -6,20 +6,20 @@ const Contact = () => {
     {
       icon: '📧',
       label: 'Email',
-      value: 'a.bardhan@psu.edu',
-      href: 'mailto:a.bardhan@psu.edu'
+      value: 'a.bardhan2004@gmail.com',
+      href: 'mailto:a.bardhan2004@gmail.com'
     },
     {
       icon: '💼',
       label: 'LinkedIn',
       value: 'Connect with me',
-      href: 'https://linkedin.com/in/aruj-bardhan'
+      href: 'https://www.linkedin.com/in/arujbardhan/'
     },
     {
       icon: '🐙',
       label: 'GitHub',
       value: 'View my code',
-      href: 'https://github.com/aruj-bardhan'
+      href: 'https://github.com/arujbardhan'
     },
     {
       icon: '📍',
@@ -117,7 +117,7 @@ const Contact = () => {
                     className="glow-pulse hover:scale-105 transition-transform"
                     asChild
                   >
-                    <a href="mailto:a.bardhan@psu.edu">
+                    <a href="mailto:a.bardhan2004@gmail.com">
                       Send Me an Email
                     </a>
                   </Button>

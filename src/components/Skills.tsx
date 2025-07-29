@@ -20,10 +20,10 @@ const Skills = () => {
         'Java',
         'SQL',
         'RStudio',
+        'HTML',
+        'JSON',
         'DBT (Data Build Tool)',
         'Microsoft SSIS',
-        'JSON',
-        'PHI/XML',
         'ETL Processes',
         'API Development',
         'MongoDB',
@@ -62,6 +62,13 @@ const Skills = () => {
     {
       title: '🔧 Technical Skills',
       skills: [
+        'Wireshark',
+        'Splunk',
+        'Ghidra',
+        'PowerShell',
+        'Bash Shell',
+        'IDA Pro',
+        'VS Code',
         'Database Management',
         'Microsoft Active Directory',
         'Microsoft Entra',
@@ -70,18 +77,19 @@ const Skills = () => {
         'Technical Writing',
         'Project Management',
         'Version Control (Git)',
-        'Agile Methodologies',
-        'Problem Solving',
-        'Team Collaboration'
+        'Agile Methodologies'
       ]
     },
     {
-      title: '🌐 Languages',
+      title: '🌐 Languages & Certifications',
       skills: [
-        'English (Conversational)',
+        'Hindi (Conversational, Reading, Writing)',
         'French (Intermediate)',
-        'Technical Documentation',
-        'Cross-cultural Communication'
+        'Malayalam (Limited Proficiency)',
+        'Bengali (Limited Proficiency)',
+        'Visio 2021 Essential Training',
+        'NSA Center of Academic Excellence Certificate (In-Progress)',
+        'CompTIA Network N10007 Exam Preparation'
       ]
     }
   ];
