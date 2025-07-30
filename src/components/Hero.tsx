@@ -123,8 +123,9 @@ const Hero = () => {
                 <img
                   src="/lovable-uploads/a8ea17dc-5b68-461e-b24c-417d65274126.png"
                   alt="Aruj Bardhan"
-                  className="relative w-80 h-80 rounded-full object-cover border-4 border-primary/30 shadow-2xl animate-float hover:scale-105 transition-transform duration-500"
+                  className="relative w-80 h-80 rounded-full object-cover border-4 border-primary/30 shadow-2xl hover:scale-110 transition-transform duration-300 ease-in-out"
                 />
+                
                 
                 {/* Floating Tech Icons */}
                 <div className="absolute -top-4 -right-4 w-12 h-12 bg-primary/20 backdrop-blur-sm border border-primary/30 rounded-full flex items-center justify-center animate-float">
