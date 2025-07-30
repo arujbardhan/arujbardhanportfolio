@@ -3,64 +3,20 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const Skills = () => {
   const skillCategories = [
     {
-      title: '🔒 Cybersecurity',
-      skills: [
-        'Cybersecurity Research',
-        'Data Analysis & Algorithmic Thinking',
-        'Application Development',
-        'Probability Theory & Database Management',
-        'Security Assessment',
-        'Vulnerability Analysis'
-      ]
-    },
-    {
-      title: '💻 Programming & Development',
+      title: '💻 Programming',
       skills: [
         'Python',
-        'Java',
+        'Java', 
+        'JSON',
+        'DBT',
         'SQL',
         'RStudio',
         'HTML',
-        'JSON',
-        'DBT (Data Build Tool)',
-        'Microsoft SSIS',
-        'ETL Processes',
-        'API Development',
-        'MongoDB',
-        'Data Structures & Algorithms',
-        'Big Data Programming Models'
+        'TypeScript'
       ]
     },
     {
-      title: '🤖 AI/ML & Data Science',
-      skills: [
-        'OpenAI',
-        'TensorFlow',
-        'Machine Learning',
-        'Data Analysis',
-        'Mathematical Statistics',
-        'Big Data Processing',
-        'Predictive Modeling',
-        'Azure',
-        'Snowflake',
-        'AutoCAD/Revit'
-      ]
-    },
-    {
-      title: '🎨 Design & Tools',
-      skills: [
-        'UI/UX Design',
-        'FT Studio',
-        'Adobe Creative Suite',
-        'Video Editing (VEGAS Pro)',
-        'Figma',
-        'Wireframing',
-        'Prototyping',
-        'Visual Design'
-      ]
-    },
-    {
-      title: '🔧 Technical Skills',
+      title: '🔧 Tools',
       skills: [
         'Wireshark',
         'Splunk',
@@ -68,28 +24,44 @@ const Skills = () => {
         'PowerShell',
         'Bash Shell',
         'IDA Pro',
+        'MongoDB',
         'VS Code',
-        'Database Management',
-        'Microsoft Active Directory',
-        'Microsoft Entra',
-        'Microsoft Business Suite',
-        'System Optimization',
-        'Technical Writing',
-        'Project Management',
-        'Version Control (Git)',
-        'Agile Methodologies'
+        'Tailwind CSS'
       ]
     },
     {
-      title: '🌐 Languages & Certifications',
+      title: '🎨 Design',
+      skills: [
+        'Autodesk CAD/Revit',
+        'FL Studio',
+        'VEGAS Pro',
+        'Adobe Premier Pro'
+      ]
+    },
+    {
+      title: '💼 Computer Applications',
+      skills: [
+        'Microsoft Word',
+        'Microsoft Excel',
+        'Microsoft PowerPoint',
+        'Google Workspace'
+      ]
+    },
+    {
+      title: '📜 Certifications',
+      skills: [
+        'Visio 2021 Essential Training Office',
+        'NSA Center of Academic Excellence Certificate (In-Progress)',
+        'Preparing for the CompTIA Network N10007 Exam'
+      ]
+    },
+    {
+      title: '🌐 Languages',
       skills: [
         'Hindi (Conversational, Reading, Writing)',
         'French (Intermediate)',
         'Malayalam (Limited Proficiency)',
-        'Bengali (Limited Proficiency)',
-        'Visio 2021 Essential Training',
-        'NSA Center of Academic Excellence Certificate (In-Progress)',
-        'CompTIA Network N10007 Exam Preparation'
+        'Bengali (Limited Proficiency)'
       ]
     }
   ];
