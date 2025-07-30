@@ -19,7 +19,7 @@ const About = () => {
             <p className="text-lg leading-relaxed">
               Hey! I'm Aruj, a fourth-year student at Penn State University in State College, PA, 
               pursuing a degree in Cybersecurity Analytics and Operations with a focus in Law and Policy. 
-              I'm also pursuing a double minor in Information Sciences and Technology & Security and Risk Analysis.
+              I'm also pursuing a double minor in Information Sciences and Technology and Security and Risk Analysis.
             </p>
             
             <p className="text-lg leading-relaxed">
@@ -50,7 +50,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>📚 Double Minor: IST & Security Risk Analysis</span>
+                  <span>📚 Double Minor: Information Sciences and Technology and Security and Risk Analysis</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />

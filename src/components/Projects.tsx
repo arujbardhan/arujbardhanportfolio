@@ -58,11 +58,11 @@ const Projects = () => {
     <section id="projects" className="py-20 px-6 bg-background-secondary">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text leading-tight">
             Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A showcase of my work in cybersecurity, software development, and AI/ML applications.
+            A showcase of technical projects spanning cybersecurity, software development, and data optimization.
           </p>
         </div>
 
@@ -119,14 +119,6 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div className="pt-4">
-                  <Button 
-                    variant="outline" 
-                    className="w-full border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all"
-                  >
-                    View Details
-                  </Button>
-                </div>
               </CardContent>
             </Card>
           ))}
