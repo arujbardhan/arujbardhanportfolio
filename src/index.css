@@ -130,4 +130,32 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
+  /* Enhanced typography hierarchy */
+  .section-title {
+    @apply text-4xl lg:text-5xl font-bold mb-4 gradient-text;
+  }
+
+  .section-subtitle {
+    @apply text-xl text-muted-foreground max-w-3xl mx-auto mb-16;
+  }
+
+  /* Interactive elements */
+  .nav-link {
+    @apply text-foreground/80 hover:text-accent transition-all duration-300 relative group;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full;
+  }
+
+  /* Enhanced cards */
+  .project-card {
+    @apply bg-background border-accent/20 hover:border-accent/40 transition-all duration-300 hover:scale-[1.02] group h-full hover:shadow-lg hover:shadow-accent/10;
+  }
+
+  /* Resume download button styling */
+  .resume-btn {
+    @apply bg-gradient-to-r from-accent to-primary text-white font-semibold px-6 py-3 rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-accent/20;
+  }
 }

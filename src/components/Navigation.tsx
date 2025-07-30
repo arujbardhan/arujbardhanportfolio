@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/button';
+import { Download } from 'lucide-react';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,12 +24,23 @@ const Navigation = () => {
     { href: '#contact', label: 'Contact' },
   ];
 
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const target = document.querySelector(href);
+    if (target) {
+      target.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  };
+
   return (
     <nav
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         isScrolled
-          ? 'bg-background/80 backdrop-blur-md border-b border-border'
+          ? 'bg-background/95 backdrop-blur-lg border-b border-border shadow-lg'
           : 'bg-transparent'
       )}
     >
@@ -35,6 +48,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <a
             href="#"
+            onClick={(e) => handleSmoothScroll(e, '#hero')}
             className="text-2xl font-bold gradient-text hover:scale-105 transition-transform"
           >
             AB
@@ -45,12 +59,27 @@ const Navigation = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-foreground/80 hover:text-accent transition-colors relative group"
+                onClick={(e) => handleSmoothScroll(e, link.href)}
+                className="nav-link"
               >
                 {link.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-accent transition-all group-hover:w-full" />
               </a>
             ))}
+            
+            <Button 
+              size="sm" 
+              className="resume-btn ml-4"
+              asChild
+            >
+              <a 
+                href="/resume.pdf" 
+                download="Aruj_Bardhan_Resume.pdf"
+                className="flex items-center gap-2"
+              >
+                <Download size={16} />
+                Resume
+              </a>
+            </Button>
           </div>
 
           {/* Mobile menu button - simplified for now */}
