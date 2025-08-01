@@ -33,10 +33,10 @@ const Contact = () => {
     <section id="contact" className="py-20 px-6 bg-background-secondary">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text">
             Get In Touch
           </h2>
-          <p className="section-subtitle">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Let's collaborate on cybersecurity, software development, or AI/ML projects. 
             I'm always excited to discuss new opportunities and innovative solutions.
           </p>
