@@ -46,8 +46,8 @@ const Projects = () => {
 
   const getTypeColor = (type: string) => {
     const colors = {
-      'Software Development': 'bg-blue-500/20 text-blue-400 border-blue-500/30',
-      'Cybersecurity': 'bg-red-500/20 text-red-400 border-red-500/30',
+      'Desktop Application': 'bg-blue-500/20 text-blue-400 border-blue-500/30',
+      'Research': 'bg-red-500/20 text-red-400 border-red-500/30',
       'Data Engineering': 'bg-green-500/20 text-green-400 border-green-500/30',
       'AI/ML': 'bg-purple-500/20 text-purple-400 border-purple-500/30'
     };
@@ -57,61 +57,82 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 px-6 bg-background-secondary">
       <div className="container mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text leading-tight">
-            Projects
+        <div className="text-center mb-16 space-y-6">
+          <div className="inline-block px-4 py-2 glass-effect border border-accent/30 rounded-full">
+            <span className="text-accent text-sm font-medium">Featured Work</span>
+          </div>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text-alt leading-tight">
+            Projects & Experience
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A showcase of technical projects spanning cybersecurity, software development, and data optimization.
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            A showcase of technical projects spanning cybersecurity research, software development, 
+            and enterprise data optimization solutions.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((project, index) => (
             <Card 
               key={index}
-              className="bg-background border-accent/20 hover:border-accent/40 transition-all duration-300 hover:scale-[1.02] group h-full"
+              className="group relative glass-effect border-border-soft hover:border-accent/40 transition-all duration-500 hover-lift h-full overflow-hidden"
             >
-              <CardHeader>
+              {/* Gradient overlay on hover */}
+              <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none" />
+              
+              <CardHeader className="relative z-10">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex-1">
-                    <CardTitle className="text-xl mb-2 group-hover:text-accent transition-colors">
+                    <CardTitle className="text-xl mb-3 group-hover:text-accent transition-colors duration-300 line-clamp-2">
                       {project.title}
                     </CardTitle>
-                    <p className="text-sm text-muted-foreground font-medium">
+                    <p className="text-sm text-muted-foreground font-medium flex items-center gap-2">
+                      <span className="w-1 h-1 bg-accent rounded-full animate-pulse"></span>
                       {project.period}
                     </p>
                   </div>
-                  <span className={`px-3 py-1 rounded-full text-xs border ${getTypeColor(project.type)}`}>
+                  <span className={`px-3 py-1.5 rounded-xl text-xs font-medium border backdrop-blur-sm ${getTypeColor(project.type)} group-hover:scale-105 transition-transform duration-300`}>
                     {project.type}
                   </span>
                 </div>
               </CardHeader>
 
-              <CardContent className="space-y-6">
-                <p className="text-muted-foreground leading-relaxed">
+              <CardContent className="space-y-6 relative z-10">
+                <p className="text-muted-foreground leading-relaxed text-sm">
                   {project.description}
                 </p>
 
                 <div>
-                  <h4 className="font-semibold text-accent mb-3">Key Features:</h4>
+                  <h4 className="font-semibold text-accent mb-3 flex items-center gap-2">
+                    <span className="w-4 h-0.5 bg-accent rounded-full"></span>
+                    Key Features
+                  </h4>
                   <ul className="space-y-2">
-                    {project.highlights.map((highlight, highlightIndex) => (
-                      <li key={highlightIndex} className="flex items-start gap-3">
-                        <span className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
-                        <span className="text-sm leading-relaxed">{highlight}</span>
+                    {project.highlights.slice(0, 3).map((highlight, highlightIndex) => (
+                      <li key={highlightIndex} className="flex items-start gap-3 group/item">
+                        <span className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0 group-hover/item:scale-125 transition-transform duration-200" />
+                        <span className="text-sm leading-relaxed text-foreground/80 group-hover/item:text-foreground transition-colors">
+                          {highlight}
+                        </span>
                       </li>
                     ))}
+                    {project.highlights.length > 3 && (
+                      <li className="text-xs text-muted-foreground ml-5">
+                        +{project.highlights.length - 3} more features
+                      </li>
+                    )}
                   </ul>
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-accent mb-3">Technologies:</h4>
+                  <h4 className="font-semibold text-accent mb-3 flex items-center gap-2">
+                    <span className="w-4 h-0.5 bg-accent rounded-full"></span>
+                    Tech Stack
+                  </h4>
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech, techIndex) => (
                       <span 
                         key={techIndex}
-                        className="px-3 py-1 bg-accent/10 text-accent rounded-full text-xs border border-accent/20"
+                        className="px-2.5 py-1 glass-effect text-accent rounded-lg text-xs font-medium border border-accent/20 hover:border-accent/40 hover:scale-105 transition-all duration-300 cursor-default"
                       >
                         {tech}
                       </span>
@@ -119,6 +140,16 @@ const Projects = () => {
                   </div>
                 </div>
 
+                {/* Hover reveal: Learn more button */}
+                <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="w-full magnetic-button border-accent/30 text-accent hover:bg-accent/10"
+                  >
+                    Learn More
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           ))}

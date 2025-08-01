@@ -69,13 +69,16 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20 px-6 bg-background-secondary">
       <div className="container mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 space-y-6">
+          <div className="inline-block px-4 py-2 glass-effect border border-primary/30 rounded-full">
+            <span className="text-primary text-sm font-medium">Technical Expertise</span>
+          </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text">
-            My Skills
+            Skills & Certifications
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A comprehensive toolkit spanning cybersecurity, software development, 
-            AI/ML, and design.
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            A comprehensive toolkit spanning cybersecurity analytics, software development, 
+            AI/ML engineering, and creative design solutions.
           </p>
         </div>
 
@@ -83,22 +86,28 @@ const Skills = () => {
           {skillCategories.map((category, index) => (
             <Card 
               key={index} 
-              className="bg-background border-accent/20 hover:border-accent/40 transition-all duration-300 hover:scale-105 group"
+              className="group glass-effect border-border-soft hover:border-accent/40 transition-all duration-500 hover-lift h-full"
             >
-              <CardHeader>
-                <CardTitle className="text-xl text-accent group-hover:text-accent/80 transition-colors">
-                  {category.title}
+              {/* Hover gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-lg pointer-events-none" />
+              
+              <CardHeader className="relative z-10">
+                <CardTitle className="text-xl text-accent group-hover:text-accent/90 transition-colors duration-300 flex items-center gap-3">
+                  <span className="text-2xl">{category.title.split(' ')[0]}</span>
+                  <span>{category.title.split(' ').slice(1).join(' ')}</span>
                 </CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="relative z-10">
                 <div className="space-y-3">
                   {category.skills.map((skill, skillIndex) => (
                     <div 
                       key={skillIndex}
-                      className="flex items-center gap-3 py-2 px-3 rounded-lg bg-muted/50 hover:bg-accent/10 transition-colors"
+                      className="group/skill flex items-center gap-3 py-2.5 px-3 rounded-lg glass-effect border border-transparent hover:border-accent/20 transition-all duration-300 hover:scale-[1.02]"
                     >
-                      <span className="w-2 h-2 bg-accent rounded-full" />
-                      <span className="text-sm">{skill}</span>
+                      <span className="w-2 h-2 bg-accent rounded-full group-hover/skill:scale-125 group-hover/skill:shadow-md group-hover/skill:shadow-accent/50 transition-all duration-200" />
+                      <span className="text-sm text-foreground/80 group-hover/skill:text-foreground transition-colors font-medium">
+                        {skill}
+                      </span>
                     </div>
                   ))}
                 </div>

@@ -3,7 +3,7 @@ import TypingAnimation from '@/components/ui/typing-animation';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 pt-20 relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center px-6 pt-20 relative overflow-hidden bg-gradient-to-br from-background via-background-secondary to-background-tertiary">
       {/* Tech Grid Background */}
       <div className="absolute inset-0 opacity-5">
         <div className="grid grid-cols-12 gap-4 h-full">
@@ -28,19 +28,23 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-10 animate-slide-up">
             <div className="space-y-6">
-              <div className="inline-block px-4 py-2 bg-primary/10 border border-primary/20 rounded-full">
-                <span className="text-primary text-sm font-medium">● Available for Opportunities</span>
+              <div className="inline-block px-4 py-2 glass-effect border border-primary/30 rounded-full animate-fade-in-delay hover:scale-105 transition-all duration-300">
+                <span className="text-primary text-sm font-medium flex items-center gap-2">
+                  <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                  Available for Opportunities
+                </span>
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-                Hi, I'm{' '}
-                <span className="gradient-text relative">
+                <span className="block">Hi, I'm</span>
+                <span className="gradient-text-alt relative block hover:scale-105 transition-transform duration-300">
                   Aruj Bardhan
-                  <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent opacity-20 blur-xl rounded-lg" />
+                  <div className="absolute -inset-2 bg-gradient-to-r from-primary/10 via-accent/10 to-purple-500/10 rounded-2xl blur-2xl animate-glow-pulse" />
                 </span>
               </h1>
               
-              <div className="text-xl lg:text-2xl text-muted-foreground min-h-[2rem] flex items-center">
+              <div className="text-xl lg:text-2xl text-muted-foreground min-h-[3rem] flex items-center">
+                <span className="mr-3 text-foreground/60">I'm a</span>
                 <TypingAnimation
                   texts={[
                     "Cybersecurity Analyst",
@@ -52,19 +56,19 @@ const Hero = () => {
                   speed={80}
                   deleteSpeed={40}
                   pauseDuration={1500}
-                  className="text-accent font-medium"
+                  className="text-accent font-semibold"
                 />
               </div>
             </div>
 
-            <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl blur-xl" />
-              <div className="relative bg-background-secondary/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6">
+            <div className="relative group">
+              <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 via-accent/15 to-purple-500/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500" />
+              <div className="relative glass-effect rounded-2xl p-6 hover-lift">
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Building innovative solutions at the intersection of{' '}
-                  <span className="text-primary font-semibold">cybersecurity</span>,{' '}
-                  <span className="text-accent font-semibold">AI/ML development</span>, and{' '}
-                  <span className="text-secondary font-semibold">software engineering</span>. 
+                  <span className="text-primary font-semibold hover:text-primary-soft transition-colors">cybersecurity</span>,{' '}
+                  <span className="text-accent font-semibold hover:text-accent-soft transition-colors">AI/ML development</span>, and{' '}
+                  <span className="text-secondary font-semibold hover:text-secondary/80 transition-colors">software engineering</span>. 
                   Passionate about creating secure, efficient systems that make a real-world impact.
                 </p>
               </div>
@@ -73,38 +77,53 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg" 
-                className="group relative overflow-hidden bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary text-primary-foreground shadow-lg hover:shadow-primary/25 hover:scale-105 transition-all duration-300"
+                className="magnetic-button hover-glow group relative overflow-hidden bg-gradient-to-r from-primary to-accent hover:from-primary-soft hover:to-accent-soft text-primary-foreground shadow-xl hover:shadow-2xl transition-all duration-300"
                 asChild
               >
-                <a href="#projects" className="relative z-10">
+                <a href="#projects" className="relative z-10 flex items-center gap-2">
                   <span>View Projects</span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+                  <span className="group-hover:translate-x-1 transition-transform duration-300">🚀</span>
                 </a>
               </Button>
               
               <Button 
                 variant="outline" 
                 size="lg"
-                className="group border-2 border-accent/50 text-accent hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/25"
+                className="magnetic-button group glass-effect border-2 border-accent/50 text-accent hover:bg-accent/10 hover:border-accent hover:text-accent transition-all duration-300 hover:shadow-xl hover:shadow-accent/20"
                 asChild
               >
                 <a href="#contact" className="flex items-center gap-2">
                   <span>Contact Me</span>
-                  <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
+                  <span className="group-hover:translate-x-1 group-hover:scale-110 transition-all duration-300">💬</span>
                 </a>
               </Button>
             </div>
 
-            {/* Tech Stack Preview */}
-            <div className="flex flex-wrap gap-3 pt-4">
-              {['Python', 'Java', 'SQL', 'React', 'TensorFlow'].map((tech) => (
-                <div 
-                  key={tech}
-                  className="px-3 py-1 bg-background-secondary border border-primary/20 rounded-full text-sm text-muted-foreground hover:border-primary/40 hover:text-primary transition-all duration-300 cursor-default"
-                >
-                  {tech}
-                </div>
-              ))}
+            {/* Enhanced Tech Stack Preview */}
+            <div className="space-y-4 pt-4">
+              <h3 className="text-sm font-medium text-muted-foreground flex items-center gap-2">
+                <span className="w-4 h-0.5 bg-accent rounded-full"></span>
+                Core Technologies
+              </h3>
+              <div className="flex flex-wrap gap-3">
+                {[
+                  { name: 'Python', color: 'from-blue-500 to-yellow-500' },
+                  { name: 'Java', color: 'from-orange-500 to-red-500' },
+                  { name: 'SQL', color: 'from-blue-600 to-purple-600' },
+                  { name: 'React', color: 'from-cyan-500 to-blue-500' },
+                  { name: 'TensorFlow', color: 'from-orange-600 to-yellow-500' }
+                ].map((tech) => (
+                  <div 
+                    key={tech.name}
+                    className="group relative px-4 py-2 glass-effect border border-primary/20 rounded-full text-sm font-medium hover:border-accent/40 transition-all duration-300 cursor-default hover-lift"
+                  >
+                    <div className={`absolute inset-0 bg-gradient-to-r ${tech.color} opacity-0 group-hover:opacity-10 rounded-full transition-all duration-300`} />
+                    <span className="relative text-foreground/80 group-hover:text-foreground transition-colors">
+                      {tech.name}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
