@@ -142,7 +142,7 @@
 
   /* Interactive elements */
   .nav-link {
-    @apply text-foreground/80 hover:text-accent transition-all duration-300 relative group;
+    @apply text-foreground/80 hover:text-accent transition-all duration-300 relative;
   }
 
   .nav-link::after {
