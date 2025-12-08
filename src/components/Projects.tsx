@@ -4,6 +4,19 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
+      title: 'VirtualDJ Agent — Real-Time Audio Analysis',
+      period: 'October 2025 - November 2025',
+      description: 'Python-based DSP application for real-time audio analysis and automated DJ transition recommendations using machine learning and signal processing.',
+      technologies: ['Python', 'DSP', 'Machine Learning', 'JSON', 'Audio Processing'],
+      highlights: [
+        'Real-time BPM and key detection modules',
+        'Multi-format support: MP3, WAV, FLAC',
+        'Automated playlist curation algorithms',
+        'Intuitive UI/UX for DJ mixing workflows'
+      ],
+      type: 'AI/ML'
+    },
+    {
       title: 'LLM-Powered Flight Management System',
       period: 'November 2024 - December 2024',
       description: 'Java Swing desktop application with OpenAI GPT-4 API integration for natural language flight queries and automated booking workflows.',
