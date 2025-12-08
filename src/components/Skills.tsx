@@ -1,9 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Code, Wrench, Palette, Monitor, Award, Globe } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: '💻 Programming',
+      title: 'Programming',
+      icon: Code,
       skills: [
         'Python',
         'Java', 
@@ -16,7 +18,8 @@ const Skills = () => {
       ]
     },
     {
-      title: '🔧 Tools',
+      title: 'Tools & Platforms',
+      icon: Wrench,
       skills: [
         'Wireshark',
         'Splunk',
@@ -30,7 +33,8 @@ const Skills = () => {
       ]
     },
     {
-      title: '🎨 Design',
+      title: 'Design Software',
+      icon: Palette,
       skills: [
         'Autodesk CAD/Revit',
         'FL Studio',
@@ -39,7 +43,8 @@ const Skills = () => {
       ]
     },
     {
-      title: '💼 Computer Applications',
+      title: 'Productivity Suite',
+      icon: Monitor,
       skills: [
         'Microsoft Word',
         'Microsoft Excel',
@@ -48,7 +53,8 @@ const Skills = () => {
       ]
     },
     {
-      title: '📜 Certifications',
+      title: 'Certifications',
+      icon: Award,
       skills: [
         'Visio 2021 Essential Training Office',
         'NSA Center of Academic Excellence Certificate (In-Progress)',
@@ -56,7 +62,8 @@ const Skills = () => {
       ]
     },
     {
-      title: '🌐 Languages',
+      title: 'Languages',
+      icon: Globe,
       skills: [
         'Hindi (Conversational, Reading, Writing)',
         'French (Intermediate)',
@@ -93,8 +100,8 @@ const Skills = () => {
               
               <CardHeader className="relative z-10">
                 <CardTitle className="text-xl text-accent group-hover:text-accent/90 transition-colors duration-300 flex items-center gap-3">
-                  <span className="text-2xl">{category.title.split(' ')[0]}</span>
-                  <span>{category.title.split(' ').slice(1).join(' ')}</span>
+                  <category.icon className="w-5 h-5" />
+                  <span>{category.title}</span>
                 </CardTitle>
               </CardHeader>
               <CardContent className="relative z-10">

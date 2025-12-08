@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import TypingAnimation from '@/components/ui/typing-animation';
-
+import { ArrowRight, Mail } from 'lucide-react';
 const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center px-6 pt-20 relative overflow-hidden bg-gradient-to-br from-background via-background-secondary to-background-tertiary">
@@ -82,7 +82,7 @@ const Hero = () => {
               >
                 <a href="#projects" className="relative z-10 flex items-center gap-2">
                   <span>View Projects</span>
-                  <span className="group-hover:translate-x-1 transition-transform duration-300">🚀</span>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </a>
               </Button>
               
@@ -93,8 +93,8 @@ const Hero = () => {
                 asChild
               >
                 <a href="#contact" className="flex items-center gap-2">
-                  <span>Contact Me</span>
-                  <span className="group-hover:translate-x-1 group-hover:scale-110 transition-all duration-300">💬</span>
+                  <span>Get in Touch</span>
+                  <Mail className="w-4 h-4 group-hover:translate-x-1 transition-all duration-300" />
                 </a>
               </Button>
             </div>

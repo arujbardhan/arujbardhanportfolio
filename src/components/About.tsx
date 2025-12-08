@@ -41,27 +41,27 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🎓 B.S. Cybersecurity Analytics & Operations — Penn State (Senior)</span>
+                  <span>B.S. Cybersecurity Analytics & Operations — Penn State (Senior)</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🔒 Concentration: Security Policy & Regulatory Compliance</span>
+                  <span>Concentration: Security Policy & Regulatory Compliance</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>📚 Minors: IST Systems Architecture | Security Risk Analysis</span>
+                  <span>Minors: IST Systems Architecture | Security Risk Analysis</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🤖 ML/DL: TensorFlow, PyTorch, OpenAI GPT Integration</span>
+                  <span>ML/DL: TensorFlow, PyTorch, OpenAI GPT Integration</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>📊 Data Engineering: ETL Pipelines, DBT, SSIS, Azure Data Factory</span>
+                  <span>Data Engineering: ETL Pipelines, DBT, SSIS, Azure Data Factory</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🏆 Recognition: Dean's List, Provost Award, Entrepreneurship Scholar</span>
+                  <span>Recognition: Dean's List, Provost Award, Entrepreneurship Scholar</span>
                 </div>
               </div>
             </CardContent>
