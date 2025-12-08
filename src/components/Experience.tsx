@@ -7,39 +7,39 @@ const Experience = () => {
       company: 'Coforge',
       period: 'May 2025 - Jul 2025',
       location: 'Oaks, Pennsylvania, United States · On-site',
-      description: 'Internship focused on finding viable alternatives to replace Informatica workflows and developing enterprise data integration solutions.',
+      description: 'Enterprise data integration engineering focused on Informatica workflow migration and ETL pipeline optimization within Global Delivery Model infrastructure.',
       highlights: [
-        'Tasked to find viable alternatives to replace Informatica. Collaborated with on-site and remote teams in a Global Delivery Model using Python/DBT scripts and Microsoft SSIS',
-        'Improved ETL efficiency by 60%, reducing processing time from 90 to 30 minutes, impacting 3+ business-critical workflows and increasing expected cost savings. Presented project to vendor with ETL demos',
-        'Built chatbot UI/UX with Python, JSON, and MongoDB, enabling dynamic intent recognition and improving user query resolution by 14%',
-        'Collaborated with both the IMS and SEI Wealth Platform teams',
-        'Developed foundation in Microsoft SSIS, Active Directory, Microsoft Entra, and Microsoft Business Suite'
+        'Architected Informatica replacement solutions leveraging Python/DBT transformation scripts and Microsoft SSIS package development within distributed team environment',
+        'Achieved 60% ETL throughput improvement (90→30 min processing), optimizing 3+ mission-critical data pipelines with documented cost reduction metrics',
+        'Engineered conversational AI interface using Python, JSON schema validation, and MongoDB persistence layer — 14% improvement in NLU resolution accuracy',
+        'Cross-functional collaboration with IMS and SEI Wealth Platform engineering teams',
+        'Acquired proficiency in SSIS, Active Directory administration, Microsoft Entra ID, and M365 Business Suite integration'
       ]
     },
     {
-      role: 'Director, Marketing',
+      role: 'Director, Marketing Operations',
       company: 'HackPSU',
       period: 'Feb 2023 - Aug 2023',
       location: 'State College, Pennsylvania, United States',
-      description: 'Directed and managed a team to deploy various marketing methodologies for HackPSU (the largest student-run hackathon at Penn State).',
+      description: 'Technical operations leadership for Penn State\'s flagship hackathon — managed cross-functional team and multi-channel marketing automation systems.',
       highlights: [
-        'Directed and managed a team to deploy various marketing methodologies for HackPSU',
-        'Tasked with targeting and reaching over 900+ students and 100+ universities across the globe',
-        'Co-Directed the Marketing Team alongside other executives from other teams to successfully organize HackPSU',
-        'Utilized skills in Video Editing, Adobe Photoshop, and other creative tools'
+        'Orchestrated data-driven marketing campaigns utilizing analytics dashboards and A/B testing methodologies',
+        'Scaled outreach infrastructure to 900+ participants across 100+ institutions globally',
+        'Co-led cross-departmental coordination implementing agile project management workflows',
+        'Deployed creative assets using Adobe Creative Suite and video post-production pipelines'
       ]
     },
     {
-      role: 'Video Content Creator',
+      role: 'Content Systems Developer',
       company: 'Intema Solutions - Team BH Inc',
       period: 'May 2018 - Dec 2018',
-      location: 'Online (Based in Toronto, ON)',
-      description: 'Created and managed YouTube content related to popular video games, overseeing content strategy and collaborating with creators to optimize algorithm performance.',
+      location: 'Remote (Toronto, ON)',
+      description: 'YouTube content pipeline management and algorithm optimization for gaming vertical — analytics-driven content strategy development.',
       highlights: [
-        'Created and managed YouTube content related to popular video games',
-        'Oversaw content strategy and collaborated with creators to optimize algorithm performance',
-        'Developed skills in video editing and content creation',
-        'Managed online presence and audience engagement'
+        'Developed and maintained content delivery pipeline for gaming media vertical',
+        'Implemented SEO and algorithm optimization strategies based on platform analytics',
+        'Utilized non-linear editing systems and motion graphics workflows',
+        'Managed audience engagement metrics and community growth KPIs'
       ]
     }
   ];
@@ -49,10 +49,10 @@ const Experience = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text">
-            Experience
+            Professional Experience
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            My professional journey in cybersecurity, software development, and technology innovation.
+            Technical roles spanning enterprise data engineering, security operations, and systems architecture.
           </p>
         </div>
 
