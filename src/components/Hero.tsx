@@ -44,14 +44,14 @@ const Hero = () => {
               </h1>
               
               <div className="text-xl lg:text-2xl text-muted-foreground min-h-[3rem] flex items-center">
-                <span className="mr-3 text-foreground/60">I'm a</span>
+                <span className="mr-3 text-foreground/60">Specializing in</span>
                 <TypingAnimation
                   texts={[
-                    "Cybersecurity Analyst",
-                    "Software Developer", 
-                    "Data Engineer",
-                    "AI/ML Enthusiast",
-                    "Security Researcher"
+                    "Threat Detection & Analysis",
+                    "Full-Stack Development", 
+                    "ETL Pipeline Architecture",
+                    "Machine Learning Systems",
+                    "Vulnerability Assessment"
                   ]}
                   speed={80}
                   deleteSpeed={40}
@@ -65,11 +65,11 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 via-accent/15 to-purple-500/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500" />
               <div className="relative glass-effect rounded-2xl p-6 hover-lift">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Building innovative solutions at the intersection of{' '}
-                  <span className="text-primary font-semibold hover:text-primary-soft transition-colors">cybersecurity</span>,{' '}
-                  <span className="text-accent font-semibold hover:text-accent-soft transition-colors">AI/ML development</span>, and{' '}
-                  <span className="text-secondary font-semibold hover:text-secondary/80 transition-colors">software engineering</span>. 
-                  Passionate about creating secure, efficient systems that make a real-world impact.
+                  Architecting robust solutions at the intersection of{' '}
+                  <span className="text-primary font-semibold hover:text-primary-soft transition-colors">information security</span>,{' '}
+                  <span className="text-accent font-semibold hover:text-accent-soft transition-colors">neural network implementations</span>, and{' '}
+                  <span className="text-secondary font-semibold hover:text-secondary/80 transition-colors">distributed systems engineering</span>. 
+                  Focused on developing scalable, secure architectures with measurable performance optimization.
                 </p>
               </div>
             </div>

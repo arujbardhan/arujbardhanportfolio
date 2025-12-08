@@ -6,63 +6,62 @@ const About = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text">
-            About Me
+            Technical Profile
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate about cybersecurity and software development with hands-on experience 
-            in ETL optimization, AI/ML development, and real-world security challenges.
+            Specializing in security operations, data pipeline architecture, and machine learning integration 
+            with demonstrated expertise in ETL optimization, threat analysis, and enterprise system development.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              Hey! I'm Aruj, a fourth-year student at Penn State University in State College, PA, 
-              pursuing a degree in Cybersecurity Analytics and Operations with a focus in Law and Policy. 
-              I'm also pursuing a double minor in Information Sciences and Technology and Security and Risk Analysis.
+              Fourth-year undergraduate at Penn State University pursuing Cybersecurity Analytics and Operations 
+              with a Law and Policy concentration. Concurrent double minor in Information Sciences & Technology 
+              and Security Risk Analysis provides comprehensive coverage of both technical implementation and governance frameworks.
             </p>
             
             <p className="text-lg leading-relaxed">
-              My academic background in data structures and algorithms, database management, and big data programming models 
-              has given me a solid foundation in handling complex data systems. I have proficiency in SQL, Java, Python, 
-              and RStudio, and experience working with AI models like OpenAI and TensorFlow.
+              Core competencies include algorithmic design, relational database architecture, and distributed computing paradigms. 
+              Proficient in SQL query optimization, object-oriented development (Java/Python), statistical computing (R), 
+              and neural network frameworks including TensorFlow and OpenAI API integration.
             </p>
 
             <p className="text-lg leading-relaxed">
-              I've applied these competencies to diverse technology projects, including an OpenAI Chatbot GUI in Java. 
-              I also have leadership experience at many organizations at Penn State, including directing HackPSU and 
-              the Aviation Society of Penn State. I strive to bring these characteristics to my next opportunity 
-              and cannot wait to improve my skills.
+              Applied these competencies across multiple production environments, including developing an LLM-powered 
+              conversational interface using Java Swing and RESTful API architecture. Technical leadership roles include 
+              directing HackPSU operations and managing Aviation Society systems infrastructure.
             </p>
           </div>
 
           <Card className="bg-background-secondary border-accent/20 shadow-xl">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-6 text-accent">Quick Facts</h3>
+              <h3 className="text-2xl font-bold mb-6 text-accent">Technical Summary</h3>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🎓 Penn State University - Fourth Year</span>
+                  <span>🎓 B.S. Cybersecurity Analytics & Operations — Penn State (Senior)</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🔒 Cybersecurity Analytics & Operations (Law & Policy Focus)</span>
+                  <span>🔒 Concentration: Security Policy & Regulatory Compliance</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>📚 Double Minor: Information Sciences and Technology and Security and Risk Analysis</span>
+                  <span>📚 Minors: IST Systems Architecture | Security Risk Analysis</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🤖 AI/ML Development Experience</span>
+                  <span>🤖 ML/DL: TensorFlow, PyTorch, OpenAI GPT Integration</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>📊 ETL Optimization Specialist</span>
+                  <span>📊 Data Engineering: ETL Pipelines, DBT, SSIS, Azure Data Factory</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>🏆 Awards: Penn State Dean's List, Provost's Award, Spring-Ford Entrepreneurship</span>
+                  <span>🏆 Recognition: Dean's List, Provost Award, Entrepreneurship Scholar</span>
                 </div>
               </div>
             </CardContent>
