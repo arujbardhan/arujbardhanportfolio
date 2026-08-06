@@ -43,20 +43,24 @@ const Hero = () => {
                 </span>
               </h1>
               
-              <div className="text-xl lg:text-2xl text-muted-foreground min-h-[3rem] flex items-center">
-                <span className="mr-3 text-foreground/60">AI & Cybersecurity Engineer</span>
+              <div className="text-base sm:text-lg lg:text-xl text-muted-foreground min-h-[3rem] flex items-center gap-2 flex-nowrap w-full">
+                <span className="text-foreground/60 whitespace-nowrap shrink-0">Specializing in:</span>
                 <TypingAnimation
                   texts={[
-                    "MBA Candidate at Penn State",
-                    "LLM Application Development",
-                    "Application Security & Threat Modeling",
-                    "DevSecOps & Secure SDLC",
-                    "Data Engineering & ETL"
+                    "AI Engineering",
+                    "Cybersecurity",
+                    "Application Security",
+                    "DevSecOps",
+                    "Secure SDLC",
+                    "Large Language Models (LLMs)",
+                    "Retrieval-Augmented Generation (RAG)",
+                    "AI Security",
+                    "Cloud Security"
                   ]}
                   speed={80}
                   deleteSpeed={40}
                   pauseDuration={1500}
-                  className="text-accent font-semibold"
+                  className="text-accent font-semibold whitespace-nowrap text-[clamp(0.8rem,2.1vw,1.25rem)]"
                 />
               </div>
             </div>

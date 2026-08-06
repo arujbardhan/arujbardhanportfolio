@@ -36,7 +36,7 @@ const Contact = () => {
           <div className="inline-block px-4 py-2 glass-effect border border-accent/30 rounded-full">
             <span className="text-accent text-sm font-medium">Let's Collaborate</span>
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text-alt">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text-alt leading-normal pb-1">
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
