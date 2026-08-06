@@ -3,10 +3,23 @@ import { Card, CardContent } from '@/components/ui/card';
 const Education = () => {
   const education = [
     {
-      degree: 'Bachelor of Science - Cybersecurity Analytics and Operations (Law and Policy Focus)',
-      institution: 'Penn State University, State College, PA',
-      period: 'Fourth Year - Expected Graduation 2026',
-      description: 'Specialized focus on cybersecurity analytics, operations, law and policy. Double minor in Information Sciences and Technology & Security and Risk Analysis.',
+      degree: 'Master of Business Administration (MBA)',
+      institution: 'Penn State University, Smeal College of Business, University Park, PA',
+      period: 'Expected May 2027',
+      description: 'Certificate: AI Strategy, Leadership, and Business Impact. Awards: Smeal Masters Merit Scholar.',
+      coursework: [
+        'AI Strategy',
+        'Leadership',
+        'Business Impact Analysis',
+        'Stakeholder Management',
+        'Executive Communication'
+      ]
+    },
+    {
+      degree: 'Bachelor of Science - Cybersecurity Analytics and Operations (Law and Policy)',
+      institution: 'Penn State University, College of IST, University Park, PA',
+      period: 'Completed May 2026',
+      description: 'Minor: Security and Risk Analysis (SRA). Awards: College of IST Dean\'s List; Provost\'s Award.',
       coursework: [
         'Data Structures and Algorithms',
         'Application Development',
@@ -18,26 +31,12 @@ const Education = () => {
         'Data Interchange',
         'Mathematical Statistics'
       ]
-    },
-    {
-      degree: 'High School Diploma',
-      institution: 'Spring-Ford High School, Royersford, PA',
-      period: 'August 2018 - June 2022',
-      description: 'Strong foundation in mathematics, science, and technology with early focus on computer science.',
-      coursework: [
-        'Advanced Mathematics',
-        'Computer Science Fundamentals',
-        'Physics & Engineering',
-        'Technical Writing',
-        'Critical Thinking & Analysis'
-      ]
     }
   ];
 
   const certifications = [
-    'Visio 2021 Essential Training Office',
-    'NSA Center of Academic Excellence Certificate (In-Progress)',
-    'Preparing for the CompTIA Network N10007 Exam'
+    'NSA Center of Academic Excellence',
+    'CompTIA Network+ (N10-007, In Progress)'
   ];
 
   return (
@@ -48,7 +47,7 @@ const Education = () => {
             Education
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Academic foundation in cybersecurity, data science, and software development.
+            Academic foundation in cybersecurity, AI, and business strategy.
           </p>
         </div>
 
