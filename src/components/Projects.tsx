@@ -60,7 +60,7 @@ const Projects = () => {
           <div className="inline-block px-4 py-2 glass-effect border border-accent/30 rounded-full">
             <span className="text-accent text-sm font-medium">Technical Portfolio</span>
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text-alt leading-tight">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text-alt leading-normal pb-2">
             Engineering Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -79,8 +79,8 @@ const Projects = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none" />
               
               <CardHeader className="relative z-10">
-                <div className="flex items-start justify-between mb-4">
-                  <div className="flex-1">
+                <div className="flex items-start justify-between gap-4 mb-4">
+                  <div className="flex-1 min-w-0">
                     <CardTitle className="text-xl mb-3 group-hover:text-accent transition-colors duration-300 line-clamp-2">
                       {project.title}
                     </CardTitle>
@@ -89,7 +89,7 @@ const Projects = () => {
                       {project.period}
                     </p>
                   </div>
-                  <span className={`px-3 py-1.5 rounded-xl text-xs font-medium border backdrop-blur-sm ${getTypeColor(project.type)} group-hover:scale-105 transition-transform duration-300`}>
+                  <span className={`shrink-0 whitespace-nowrap px-3 py-1.5 rounded-xl text-xs font-medium border backdrop-blur-sm ${getTypeColor(project.type)} group-hover:scale-105 transition-transform duration-300`}>
                     {project.type}
                   </span>
                 </div>
