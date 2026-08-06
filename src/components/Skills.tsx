@@ -122,7 +122,7 @@ const Skills = () => {
           <div className="inline-block px-4 py-2 glass-effect border border-primary/30 rounded-full">
             <span className="text-primary text-sm font-medium">Technical Expertise</span>
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4 gradient-text leading-normal pb-1">
             Skills & Certifications
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
