@@ -9,29 +9,29 @@ const About = () => {
             Technical Profile
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Specializing in security operations, data pipeline architecture, and machine learning integration 
-            with demonstrated expertise in ETL optimization, threat analysis, and enterprise system development.
+            AI and cybersecurity engineer specializing in LLM application development, application security, 
+            and data engineering, paired with an MBA focus on AI strategy and business impact.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              Fourth-year undergraduate at Penn State University pursuing Cybersecurity Analytics and Operations 
-              with a Law and Policy concentration. Concurrent double minor in Information Sciences & Technology 
-              and Security Risk Analysis provides comprehensive coverage of both technical implementation and governance frameworks.
+              MBA candidate at Penn State's Smeal College of Business (expected May 2027) earning a certificate in 
+              AI Strategy, Leadership, and Business Impact, following a B.S. in Cybersecurity Analytics and Operations 
+              (Law and Policy) from the College of IST with a minor in Security and Risk Analysis.
             </p>
             
             <p className="text-lg leading-relaxed">
-              Core competencies include algorithmic design, relational database architecture, and distributed computing paradigms. 
-              Proficient in SQL query optimization, object-oriented development (Java/Python), statistical computing (R), 
-              and neural network frameworks including TensorFlow and OpenAI API integration.
+              Founder and AI Engineer at Securvio, where I architected an open-source AI security analytics and learning 
+              platform on Google Gemini and LLMs, automating risk scoring, threat modeling, and control maturity assessments 
+              across 12+ consulting engagements for 6+ clients, backed by a DevSecOps CI/CD pipeline aligned to OWASP Top 10.
             </p>
 
             <p className="text-lg leading-relaxed">
-              Applied these competencies across multiple production environments, including developing an LLM-powered 
-              conversational interface using Java Swing and RESTful API architecture. Technical leadership roles include 
-              directing HackPSU operations and managing Aviation Society systems infrastructure.
+              Previously hardened AI-powered applications as a Cybersecurity Engineer at Ainsemble and modernized legacy 
+              Informatica ETL workflows into Python and dbt pipelines at Coforge (SEI Investments), cutting processing time 
+              by 60%. I pair this engineering work with stakeholder management, PRDs, and executive communication.
             </p>
           </div>
 
@@ -41,27 +41,27 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>B.S. Cybersecurity Analytics & Operations — Penn State (Senior)</span>
+                  <span>MBA Candidate — Smeal College of Business, Penn State (2027)</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>Concentration: Security Policy & Regulatory Compliance</span>
+                  <span>Certificate: AI Strategy, Leadership, and Business Impact</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>Minors: IST Systems Architecture | Security Risk Analysis</span>
+                  <span>B.S. Cybersecurity Analytics & Operations | Minor: SRA</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>ML/DL: TensorFlow, PyTorch, OpenAI GPT Integration</span>
+                  <span>AI/ML: Google Gemini, OpenAI API, RAG, AI Agents</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>Data Engineering: ETL Pipelines, DBT, SSIS, Azure Data Factory</span>
+                  <span>Data Engineering: ETL Pipelines, dbt, SSIS, Informatica</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-accent rounded-full" />
-                  <span>Recognition: Dean's List, Provost Award, Entrepreneurship Scholar</span>
+                  <span>Recognition: Dean's List, Provost's Award, Smeal Masters Merit Scholar</span>
                 </div>
               </div>
             </CardContent>

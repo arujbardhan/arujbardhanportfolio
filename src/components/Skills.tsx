@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Code, Wrench, Palette, Monitor, Award, Globe } from 'lucide-react';
+import { Code, Brain, ShieldCheck, Database, Briefcase, Award } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -8,67 +8,109 @@ const Skills = () => {
       icon: Code,
       skills: [
         'Python',
-        'Java', 
-        'JSON',
-        'DBT',
         'SQL',
-        'RStudio',
-        'HTML',
-        'TypeScript'
-      ]
-    },
-    {
-      title: 'Tools & Platforms',
-      icon: Wrench,
-      skills: [
-        'Wireshark',
-        'Splunk',
-        'Ghidra',
-        'PowerShell',
-        'Bash Shell',
-        'IDA Pro',
+        'Java',
+        'JavaScript',
+        'TypeScript',
+        'REST APIs',
+        'API Development',
+        'YAML',
+        'dbt',
         'MongoDB',
-        'VS Code',
+        'SSIS',
+        'pandas',
+        'NumPy',
+        'JSON',
+        'Git',
+        'HTML/CSS',
+        'Data Modeling',
+        'Object-Oriented Programming',
         'Tailwind CSS'
       ]
     },
     {
-      title: 'Design Software',
-      icon: Palette,
+      title: 'AI & Machine Learning',
+      icon: Brain,
       skills: [
-        'Autodesk CAD/Revit',
-        'FL Studio',
-        'VEGAS Pro',
-        'Adobe Premier Pro'
+        'Generative AI',
+        'Large Language Models (LLMs)',
+        'Google Gemini',
+        'OpenAI API',
+        'Retrieval-Augmented Generation (RAG)',
+        'Prompt Engineering',
+        'NLP',
+        'Machine Learning',
+        'Embeddings',
+        'AI Agents',
+        'LLM Application Development',
+        'AI Governance'
       ]
     },
     {
-      title: 'Productivity Suite',
-      icon: Monitor,
+      title: 'Cybersecurity',
+      icon: ShieldCheck,
       skills: [
-        'Microsoft Word',
-        'Microsoft Excel',
-        'Microsoft PowerPoint',
-        'Google Workspace'
+        'AI Security Applications',
+        'Threat Modeling',
+        'Vulnerability Management',
+        'Application Security',
+        'Security Assessments',
+        'Secure SDLC',
+        'OWASP Top 10',
+        'SAST',
+        'DAST',
+        'DevSecOps',
+        'IAM',
+        'SIEM',
+        'CI/CD',
+        'Cloud Security',
+        'Incident Response'
+      ]
+    },
+    {
+      title: 'Data Engineering',
+      icon: Database,
+      skills: [
+        'ETL',
+        'Data Pipelines',
+        'Data Warehousing',
+        'Database Management',
+        'Data Quality Assurance',
+        'Data Analysis',
+        'Data Cleansing',
+        'Log Analysis',
+        'Informatica',
+        'Splunk',
+        'Jira',
+        'ServiceNow',
+        'Ghidra',
+        'Wireshark',
+        'PowerShell'
+      ]
+    },
+    {
+      title: 'Business',
+      icon: Briefcase,
+      skills: [
+        'Stakeholder Management',
+        'Client Deliverables',
+        'Requirements Gathering',
+        'Business Impact Analysis',
+        'AI Strategy',
+        'Product Requirements Documents (PRDs)',
+        'Confluence',
+        'Runbooks',
+        'Acceptance Criteria',
+        'RAID Logs',
+        'Executive Communication'
       ]
     },
     {
       title: 'Certifications',
       icon: Award,
       skills: [
-        'Visio 2021 Essential Training Office',
-        'NSA Center of Academic Excellence Certificate (In-Progress)',
-        'Preparing for the CompTIA Network N10007 Exam'
-      ]
-    },
-    {
-      title: 'Languages',
-      icon: Globe,
-      skills: [
-        'Hindi (Conversational, Reading, Writing)',
-        'French (Intermediate)',
-        'Malayalam (Limited Proficiency)',
-        'Bengali (Limited Proficiency)'
+        'NSA Center of Academic Excellence',
+        'CompTIA Network+ (In Progress)'
       ]
     }
   ];

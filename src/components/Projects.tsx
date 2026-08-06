@@ -4,56 +4,42 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
-      title: 'VirtualDJ Agent — Real-Time Audio Analysis',
-      period: 'October 2025 - November 2025',
-      description: 'Python-based DSP application for real-time audio analysis and automated DJ transition recommendations using machine learning and signal processing.',
-      technologies: ['Python', 'DSP', 'Machine Learning', 'JSON', 'Audio Processing'],
+      title: 'AI / Web Development — Full Stack Developer',
+      period: 'September 2025 - Present',
+      description: 'Custom full-stack web platforms and GenAI chatbot interfaces delivered for 10+ clients, with front-end performance optimization and automated reporting.',
+      technologies: ['TypeScript', 'JavaScript', 'HTML/CSS', 'Tailwind CSS', 'REST APIs', 'MongoDB'],
       highlights: [
-        'Real-time BPM and key detection modules',
-        'Multi-format support: MP3, WAV, FLAC',
-        'Automated playlist curation algorithms',
-        'Intuitive UI/UX for DJ mixing workflows'
+        'Delivered full-stack web platforms for 10+ clients, increasing conversion rates by 25%',
+        'Reduced page-load latency by over 35% through front-end rendering and UI performance optimization',
+        'Deployed GenAI chatbot interfaces with LLMs, prompt engineering, and MongoDB-backed analytics',
+        'Cut manual support by 50% via intent recognition and resolution workflows'
       ],
       type: 'AI/ML'
     },
     {
-      title: 'LLM-Powered Flight Management System',
-      period: 'November 2024 - December 2024',
-      description: 'Java Swing desktop application with OpenAI GPT-4 API integration for natural language flight queries and automated booking workflows.',
-      technologies: ['Java', 'OpenAI API', 'Swing UI', 'REST API'],
+      title: 'VirtualDJ Agent — AI Audio Analysis',
+      period: 'August 2025 - November 2025',
+      description: 'Python analytical GUI for real-time audio signal processing, feature extraction, and data ingestion, generating AI-driven DJ recommendations with Google Gemini LLMs.',
+      technologies: ['Python', 'Google Gemini', 'YAML', 'DSP', 'Audio Processing'],
       highlights: [
-        'Implemented NLP query parsing for seat preference filtering',
-        'RESTful integration with real-time flight data endpoints',
-        'MVC architecture with event-driven UI components',
-        'Prompt engineering for contextual flight assistance'
+        'Real-time audio signal processing, feature extraction, and data ingestion',
+        'AI-driven DJ recommendations powered by Google Gemini LLMs',
+        'YAML-configured DSP automation for playlist curation',
+        'Multi-format support: MP3, WAV, FLAC'
+      ],
+      type: 'AI/ML'
+    },
+    {
+      title: 'State College Airport GUI Interface',
+      period: 'November 2024 - December 2024',
+      description: 'Java GUI integrating the OpenAI API and generative AI workflows for flight booking, tracking, and conversational search with FlightRadar24 data integration.',
+      technologies: ['Java', 'OpenAI API', 'Swing UI', 'FlightRadar24 Data'],
+      highlights: [
+        'Flight booking, tracking, and conversational search via generative AI workflows',
+        'FlightRadar24 data integration with structured schemas',
+        'Feature filtering and scalable analytics logging to a local dashboard'
       ],
       type: 'Desktop Application'
-    },
-    {
-      title: 'Network Threat Intelligence Research',
-      period: 'September 2024 - Present',
-      description: 'Applied research in network traffic analysis, anomaly detection algorithms, and threat hunting methodologies using SIEM/SOAR platforms.',
-      technologies: ['Python', 'Wireshark', 'Splunk SIEM', 'IDA Pro', 'PowerShell'],
-      highlights: [
-        'Packet capture analysis and protocol dissection',
-        'ML-based anomaly detection model development',
-        'CVE vulnerability assessment and exploitation research',
-        'Automated monitoring and alerting pipeline implementation'
-      ],
-      type: 'Research'
-    },
-    {
-      title: 'Enterprise ETL Pipeline Modernization',
-      period: 'May 2025 - July 2025',
-      description: 'Informatica-to-SSIS migration project achieving 60% throughput improvement on mission-critical data transformation workflows.',
-      technologies: ['Python', 'DBT', 'T-SQL', 'Microsoft SSIS', 'Azure Data Factory'],
-      highlights: [
-        '60% latency reduction (90→30 min batch processing)',
-        'Refactored 3+ production ETL workflows',
-        'MongoDB-backed conversational AI interface',
-        '14% NLU accuracy improvement via intent classification'
-      ],
-      type: 'Data Engineering'
     }
   ];
 

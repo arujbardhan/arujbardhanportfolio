@@ -3,43 +3,38 @@ import { Card, CardContent } from '@/components/ui/card';
 const Experience = () => {
   const experiences = [
     {
-      role: 'Developer III',
-      company: 'Coforge',
+      role: 'Founder and AI Engineer',
+      company: 'Securvio (Security Consulting Startup)',
+      period: 'Nov 2025 - Present',
+      location: 'University Park, Pennsylvania, United States',
+      description: 'Open-source AI security analytics and learning platform built on Google Gemini and LLMs for consulting engagements.',
+      highlights: [
+        'Architected an open-source AI security analytics and learning platform with Google Gemini and Large Language Models (LLMs), automating risk scoring, threat modeling, and control maturity assessments across 12+ consulting engagements for 6+ clients',
+        'Built a DevSecOps CI/CD pipeline for consulting clients and the learning platform, integrating SAST, dependency scanning, and LLM security validation aligned to OWASP Top 10, alongside integrated SQL reporting across 10+ security control dashboards',
+        'Developed a deployable consulting application prototype with IAM access control, encrypted data pipelines, and REST API-driven LLM workflows, cutting security assessment turnaround from 10 to 3 days using SIEM-aligned monitoring and client reporting principles'
+      ]
+    },
+    {
+      role: 'Cybersecurity Engineer (Contract)',
+      company: 'Ainsemble',
+      period: 'May 2026 - Jul 2026',
+      location: 'Remote',
+      description: 'Security engineering for AI-powered applications across cloud and AI workflows.',
+      highlights: [
+        'Strengthened enterprise security posture for AI-powered applications through secure architecture reviews, threat modeling, application hardening, vulnerability remediation, and application security (AppSec) assessments across cloud and AI workflows',
+        'Supported DevSecOps and secure SDLC for AI tools including Pulse, Aincore, Key, and The Platform through security assessments, vulnerability management, cloud security reviews, and AI governance using custom Retrieval-Augmented Generation (RAG) models'
+      ]
+    },
+    {
+      role: 'Software Developer III Intern',
+      company: 'Coforge (SEI Investments)',
       period: 'May 2025 - Jul 2025',
-      location: 'Oaks, Pennsylvania, United States · On-site',
-      description: 'Enterprise data integration engineering focused on Informatica workflow migration and ETL pipeline optimization within Global Delivery Model infrastructure.',
+      location: 'Oaks, Pennsylvania, United States',
+      description: 'Enterprise data integration engineering focused on Informatica ETL modernization and pipeline optimization within a Global Delivery Model.',
       highlights: [
-        'Architected Informatica replacement solutions leveraging Python/DBT transformation scripts and Microsoft SSIS package development within distributed team environment',
-        'Achieved 60% ETL throughput improvement (90→30 min processing), optimizing 3+ mission-critical data pipelines with documented cost reduction metrics',
-        'Engineered conversational AI interface using Python, JSON schema validation, and MongoDB persistence layer — 14% improvement in NLU resolution accuracy',
-        'Cross-functional collaboration with IMS and SEI Wealth Platform engineering teams',
-        'Acquired proficiency in SSIS, Active Directory administration, Microsoft Entra ID, and M365 Business Suite integration'
-      ]
-    },
-    {
-      role: 'Director, Marketing Operations',
-      company: 'HackPSU',
-      period: 'Feb 2023 - Aug 2023',
-      location: 'State College, Pennsylvania, United States',
-      description: 'Technical operations leadership for Penn State\'s flagship hackathon — managed cross-functional team and multi-channel marketing automation systems.',
-      highlights: [
-        'Orchestrated data-driven marketing campaigns utilizing analytics dashboards and A/B testing methodologies',
-        'Scaled outreach infrastructure to 900+ participants across 100+ institutions globally',
-        'Co-led cross-departmental coordination implementing agile project management workflows',
-        'Deployed creative assets using Adobe Creative Suite and video post-production pipelines'
-      ]
-    },
-    {
-      role: 'Content Systems Developer',
-      company: 'Intema Solutions - Team BH Inc',
-      period: 'May 2018 - Dec 2018',
-      location: 'Remote (Toronto, ON)',
-      description: 'YouTube content pipeline management and algorithm optimization for gaming vertical — analytics-driven content strategy development.',
-      highlights: [
-        'Developed and maintained content delivery pipeline for gaming media vertical',
-        'Implemented SEO and algorithm optimization strategies based on platform analytics',
-        'Utilized non-linear editing systems and motion graphics workflows',
-        'Managed audience engagement metrics and community growth KPIs'
+        'Modernized legacy Informatica ETL workflows into scalable Python and dbt scripts with 8+ stakeholders, reducing manual touchpoints by 35% and documenting data quality assurance, data lineage, and transformation logic for a Global Delivery Model',
+        'Developed ETL data pipelines using Python, dbt, SQL, and Microsoft SQL Server Integration Services (SSIS), delivering scalable data integration, automated validation, ETL optimization, and data quality assurance across 4 live ETL demos',
+        'Optimized ETL pipeline performance by 60%, cutting processing time from 90 to 30 minutes, and built a Python, JSON, and MongoDB chatbot with dynamic intent recognition, NLP query handling, and REST-ready data access that improved query resolution by 14%'
       ]
     }
   ];
