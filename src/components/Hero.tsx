@@ -44,14 +44,14 @@ const Hero = () => {
               </h1>
               
               <div className="text-xl lg:text-2xl text-muted-foreground min-h-[3rem] flex items-center">
-                <span className="mr-3 text-foreground/60">Specializing in</span>
+                <span className="mr-3 text-foreground/60">AI & Cybersecurity Engineer</span>
                 <TypingAnimation
                   texts={[
-                    "Threat Detection & Analysis",
-                    "Full-Stack Development", 
-                    "ETL Pipeline Architecture",
-                    "Machine Learning Systems",
-                    "Vulnerability Assessment"
+                    "MBA Candidate at Penn State",
+                    "LLM Application Development",
+                    "Application Security & Threat Modeling",
+                    "DevSecOps & Secure SDLC",
+                    "Data Engineering & ETL"
                   ]}
                   speed={80}
                   deleteSpeed={40}
@@ -65,11 +65,11 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 via-accent/15 to-purple-500/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500" />
               <div className="relative glass-effect rounded-2xl p-6 hover-lift">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Architecting robust solutions at the intersection of{' '}
-                  <span className="text-primary font-semibold hover:text-primary-soft transition-colors">information security</span>,{' '}
-                  <span className="text-accent font-semibold hover:text-accent-soft transition-colors">neural network implementations</span>, and{' '}
-                  <span className="text-secondary font-semibold hover:text-secondary/80 transition-colors">distributed systems engineering</span>. 
-                  Focused on developing scalable, secure architectures with measurable performance optimization.
+                  MBA Candidate at Penn State's Smeal College of Business building at the intersection of{' '}
+                  <span className="text-primary font-semibold hover:text-primary-soft transition-colors">application security</span>,{' '}
+                  <span className="text-accent font-semibold hover:text-accent-soft transition-colors">generative AI and LLM systems</span>, and{' '}
+                  <span className="text-secondary font-semibold hover:text-secondary/80 transition-colors">data engineering</span>. 
+                  Founder and AI Engineer at Securvio, delivering secure, LLM-driven security analytics for consulting clients.
                 </p>
               </div>
             </div>
@@ -108,10 +108,10 @@ const Hero = () => {
               <div className="flex flex-wrap gap-3">
                 {[
                   { name: 'Python', color: 'from-blue-500 to-yellow-500' },
-                  { name: 'Java', color: 'from-orange-500 to-red-500' },
+                  { name: 'TypeScript', color: 'from-orange-500 to-red-500' },
                   { name: 'SQL', color: 'from-blue-600 to-purple-600' },
-                  { name: 'React', color: 'from-cyan-500 to-blue-500' },
-                  { name: 'TensorFlow', color: 'from-orange-600 to-yellow-500' }
+                  { name: 'Google Gemini', color: 'from-cyan-500 to-blue-500' },
+                  { name: 'dbt', color: 'from-orange-600 to-yellow-500' }
                 ].map((tech) => (
                   <div 
                     key={tech.name}
